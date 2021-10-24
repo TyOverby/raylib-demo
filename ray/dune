@@ -1,0 +1,4 @@
+(library
+ (name ray)
+ (preprocess (pps ppx_jane))
+ (libraries base raylib))
